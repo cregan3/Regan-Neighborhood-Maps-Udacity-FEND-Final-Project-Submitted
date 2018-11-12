@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,
+html{
+	width: 100%;
+	height: 100%;
+}
+
+li:hover {
+	background-color: #C0C0C0;
+}
+
+input,
+button{
+	width: 100%;
+	min-height:44px;
+	min-width: 44px;
+	padding: 3px;
+	font-size: 1.5vw;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#searchInput{
+	border-color: black;
+}
+
+#searchButton,
+#hide-restaurants
+{
+	margin-bottom: 30px;
+}
+
+#listOfRestaurantsTitle{
+	font-weight: bold;
+	font-size: 1.75vw;
+	text-decoration: underline;
+}
+#title-box {
+	width: 100%;
+	height: 10%;
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2vw;
+}
+
+#options-box {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#listOfRestaurantsContainer{
+	margin-left: 25px;
+}
+#content {
+	width: 33%;
+	height: 100%;
+}
+#map {
+	width: 67%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+}
+.popup{
+	max-width: 100%;
+}
+@media screen and (max-width: 600px) {
+    #title-box {
+        font-size: 18px;
+    }
+
+
+		#listOfRestaurantsTitle{
+			font-size: 17px;
+		}
+		input,
+		button{
+			font-size: 16px;
+		}
+	}
+}
